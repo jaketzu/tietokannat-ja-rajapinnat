@@ -1,4 +1,4 @@
-const db = require('../database');
+const db = require('../libraryDatabase');
 
 const borrower = {
   getAll: function(callback) {
